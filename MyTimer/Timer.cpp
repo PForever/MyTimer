@@ -14,6 +14,7 @@ void PeriodFunction(milliseconds period, vector<int(*)(int)> handler)
 			method(time.count());
 			//thread thr(method, time.count());
 			//thr.join();
+
 		}
 	}
 }
